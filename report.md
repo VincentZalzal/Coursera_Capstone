@@ -84,8 +84,8 @@ For each cinema, the venues were summarized into a histogram of the top-level
 categories. At that point, it was possible to know, for a given cinema, the
 number of venues of a given popular top-level category in the cinema's vicinity.
 
-The category frequencies were then averaged among all cinemas except Spheretech
-to genreate the category frequencies for the _average cinema_.
+The category frequencies were then averaged among all cinemas except Sphèretech
+to generate the category frequencies for the _average cinema_.
 
 ### Exploratory statistics
 
@@ -97,7 +97,7 @@ and the first and third quartiles of the other cinemas.
 ### Recommendation and recommender systems
 
 At that point, a recommender system was trained using the available data, in the
-hope of getting useful category recommendations for new a business near
+hope of getting useful category recommendations for a new business near
 Sphèretech, based on Montreal's other cinemas. Unfortunately, results were
 deemed unsatisfactory. See the _Discussion_ section below for a possible
 explanation.
@@ -134,13 +134,13 @@ compared to the other cinemas.
 
 ![Comparison boxplot](comparison_boxplot.png)
 
-Comparison with the average cinema is also available in tabular format. Only the categories where Spheretech is lacking have been kept in the table below.
+Comparison with the average cinema is also available in tabular format. Only the categories where Sphèretech is lacking have been kept in the table below.
 
 ![Comparison table](comparison_table.png)
 
 ## Discussion
 
-When empirically comparing Sphèretech against the other cinemas using the box
+When comparing Sphèretech against the other cinemas using the box
 plot, we can recommend with a high degree of confidence that a business in one
 of the following three categories would be popular:
 - a café,
@@ -153,7 +153,7 @@ is currently a bar near Sphèretech, but we still recommend establishing a bar,
 because the average cinema has more than 2 bars close by, so we think it would
 also be successful.
 
-The above recommendations were obtained empirically. A recommender system was
+The above recommendations were obtained by inspection. A recommender system was
 used, but deemed unsatisfactory. This is possibly due to the fact that
 businesses don't behave like, say, movies. If a person likes action movies, we
 can always recommend more action movies, whereas if there is already multiple
